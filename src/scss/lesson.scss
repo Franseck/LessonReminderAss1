@@ -1,0 +1,77 @@
+@import "variables";
+
+ .lessons{
+
+  display: flex;
+justify-content: center;
+  padding: 1rem;
+}
+
+h1 {
+  font-family: "Rubik Scribble", system-ui;
+  text-align: center
+}
+
+.kapsa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.firstCont{
+  display: flex;
+  flex-direction: column;
+
+gap: 1rem;
+
+background: #020024;
+background: linear-gradient(90deg,#020024,#790953 35%,#00d4ff);
+color: #fff;
+min-height: 80vh;
+width:100%;
+
+}
+.disCont {
+background-color: rgba(255, 255, 255, 0.1);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.151);
+border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin:2rem;
+}
+
+.icCont{
+display: flex;
+flex-wrap: wrap;
+margin: 1rem ;
+
+}
+
+.naame {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+margin-left: 1rem;
+font-size: 1.2rem;
+font-family: "Annie Use Your Telescope", cursive;
+  font-weight: bold
+}
+span{
+  color: $October-4-hex;
+
+}
+
+img {
+width: 5rem;
+
+  object-fit: cover;
+  transition: all 0.3s ease;
+  border-radius: 1rem;
+}
+img:hover {
+  transform: scale(1.25);
+}
